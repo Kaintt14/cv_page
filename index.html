@@ -4,34 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>CV Page</title>
+    <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <img class="avatar" src="assets/wolf.jpg" alt="my_photo">
-      <h1 class="header__title">Kaintt Ser | CV</h1>
-      <h3 class="header__subtitle">Super Man</h3>
-    </header>
-
-    <main>
-      <section>
-        <h3 class="">Skills</h3>
-        <details>
-          <summary>Skill list:</summary>
-          <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>React</li>
-            <li>TypeScript</li>
-          </ol>
-        </details>
-      </section>
-
-    </main>
-
-    <footer></footer>
-
+    <div class="wrapper">
+      <div class="flex_container">
+        <div class="flex_container1">
+          <p class="pNames">Player_1 : Player_2 : Player_3 : Player_4 : Player_5 : Player_6 : Player_7 : Player_8</p>
+        </div>
+        <div class="flex_container2">
+          <p>Player_1 <progress value="100" max="100" id="progress1"></progress><br></p>
+          <p>Player_2 <progress value="100" max="100" id="progress2">Player_2</progress></p>
+          <p><input id="input1" type="text">
+          <input id="input2" type="text">
+          <input id="hpRound" type="text">
+          </p>
+          <p><input id="input3" type="text">
+          <input id="inputTimer" type="text">
+          </p>
+          
+          <p>
+            <button id="btn1" onclick="functionToExecute()">Play</button>
+            <button id="btn3" onclick="functionToExecute3()">Clear</button>
+            <button id="btnTimer" onclick="functionTimer()">Timer</button>
+          </p>
+        </div>
+      </div>
+      <div class="flex_container3">
+        <p><ol class="records">
+          <li>Name_1</li>
+          <li>Name_2</li>
+          <li>Name_3</li>
+          <li>Name_4</li>
+          <li>Name_5</li>
+          <li>Name_6</li>
+          <li>Name_7</li>
+          <li>Name_8</li>
+          <li>Name_9</li>
+          <li>Name_10</li>
+          <li>Name_11</li>
+          <li>Name_12</li>
+          <li>Name_13</li>
+          <li>Name_14</li>
+          <li>Name_15</li>
+          <li>Name_16</li>
+          <li>Name_17</li>
+          <li>Name_18</li>
+          <li>Name_19</li>
+          <li>Name_20</li>
+          
+        </ol></p>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
