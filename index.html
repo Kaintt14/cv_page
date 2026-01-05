@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>CV Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <img class="avatar" src="img/logo.png" alt="my avatar" />
-      <h1 class="header__title">SeRJiK | CV</h1>
-      <h3 class="header__subtitle">IT developer</h3>
+      <img src="assets/avatar.png" alt="Avatar Logo" class="avatar" />
+      <h1 class="header__title">Kaintt Susoltcev | CV</h1>
+      <h2 class="header__subtitle">Frontend Developer</h2>
     </header>
-    <hr class="separator" />
+
     <main>
       <section class="skills">
         <h3>Skills</h3>
@@ -23,53 +23,56 @@
             <li>2. CSS</li>
             <li>3. JavaScript</li>
             <li>4. React</li>
-            <li>5. Typescript</li>
+            <li>5. TypeScript</li>
           </ol>
         </details>
       </section>
-      <article>
-        <h4>Short article about me</h4>
+
+      <article class="article">
+        <h3>Short article about me</h3>
         <p>
           Далеко-далеко за словесными горами в стране гласных и согласных живут
-          рыбные тексты. Агентство, бросил назад! Рыбными безорфографичный
-          алфавит страна она пояс текста! Эта ручеек последний, прямо встретил
-          заманивший рыбного? Текста взобравшись коварных дал домах грустный
-          свое, ведущими выйти до все, взгляд рукопись сих о рыбными несколько
-          составитель одна назад своих которой послушавшись.
+          рыбные тексты. Страна если лучше речью сих обеспечивает, сбить раз
+          первую журчит ведущими жизни прямо щеке это текст. Снова за о страна
+          пустился гор свое не диких последний великий назад! Выйти страну прямо
+          моей маленький свою всеми рукописи за продолжил текст обеспечивает.
         </p>
       </article>
+
       <section class="gallery">
-        <h3 class="gallery__title">Gallery</h3>
-        <img src="https://placehold.jp/250x250.png" alt="" />
-        <img src="https://placehold.jp/250x250.png" alt="" />
-        <img src="https://placehold.jp/250x250.png" alt="" />
+        <h3>Gallery</h3>
+        <img src="https://placehold.jp/250x250.png" alt="placehold" />
+        <img src="https://placehold.jp/250x250.png" alt="placehold" />
+        <img src="https://placehold.jp/250x250.png" alt="placehold" />
       </section>
+
       <hr class="separator" />
+
       <section class="video">
         <iframe
-          width="900"
-          height="600"
-          src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
-          title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
+          width="720"
+          height="405"
+          src="https://rutube.ru/play/embed/1629f1da17ab6abca8731d67cb58b635"
+          style="border: none"
+          allow="clipboard-write; autoplay"
           allowfullscreen
         ></iframe>
       </section>
+
       <hr class="separator" />
-      <section class="hobbies">
-        <h4>My hobbies</h4>
+
+      <section class="skills">
+        <h3>My hobbies:</h3>
         <details>
           <summary>Hobbies</summary>
           <ol>
-            <li>1. Video</li>
-            <li>2. Music</li>
-            <li>3. IT sphera</li>
+            <li>1. Boxing</li>
+            <li>2. Game Development</li>
+            <li>3. Books</li>
           </ol>
         </details>
-        <hr class="separator2" />
       </section>
+      <hr class="separator" />
       <section class="ed">
         <table class="ed__table">
           <thead>
@@ -83,49 +86,44 @@
             <tr>
               <td>IT School 1</td>
               <td>Angular Dev</td>
-              <td>2025</td>
+              <td>2019</td>
             </tr>
             <tr>
-              <td>IT School 1</td>
+              <td>IT School 2</td>
               <td>React Dev</td>
-              <td>2025</td>
+              <td>2021</td>
             </tr>
           </tbody>
         </table>
       </section>
       <section class="quote">
-        <blockquote>Действия - это единственный путь к успеху</blockquote>
+        <blockquote>Действия - это единственный путь к успеху!</blockquote>
       </section>
-      <section class="interaction">
-        <form class="form" action="https://ya.ru" method="get" target="_blank">
+      <section class="interraction">
+        <form action="https://ya.ru" method="get" class="form" target="_blank">
           <fieldset>
-            <legend>Required fields</legend>
+            <legend>Required Fields</legend>
             <div>
-              <label for="firstName-id">First Name:</label>
-              <input type="text" name="firstName" id="firstName-id" required />
+              <label for="firstNameId">First Name:</label>
+              <input type="text" name="firstName" id="firstNameId" required />
             </div>
             <div>
-              <label for="lastName-id">Last Name:</label>
-              <input type="text" name="firstName" id="lastName-id" required />
+              <label for="lastNameId">Last Name:</label>
+              <input type="text" name="lastName" id="lastNameId" required />
             </div>
             <div>
-              <label for="email-id">E-mail:</label>
-              <input type="email" name="email" id="email-id" required />
+              <label for="eMailId">Email:</label>
+              <input type="text" name="eMail" id="eMailId" required />
             </div>
           </fieldset>
-          <textarea name="" id="" cols="30" rows="7"></textarea>
-          <button class="form__submit" type="submit">Submit</button>
+          <br>
+          <textarea name="" id="" cols="30" rows="3"></textarea>
+          <br>
+          <button type="submit">Submit</button>
         </form>
       </section>
     </main>
-    <footer>
-      <address>
-        <a href="mailto:it@mail.ru">it@mail.ru</a>
-        <br>
-        <a href="tel:+79131381494">+7 913 138 14 94</a>
-      </address>
-    </footer>
-   
-    <script src="js/main.js"></script>
+
+    <footer></footer>
   </body>
 </html>
